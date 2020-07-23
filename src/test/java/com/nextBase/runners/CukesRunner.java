@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/cybertek/step_definitions",
+        glue = "com/nextBase/step_definitions",
         dryRun = false,
-        tags = "@wiki"
+        tags = "@filter"
 )
 
 public class CukesRunner {
