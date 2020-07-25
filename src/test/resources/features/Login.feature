@@ -5,7 +5,7 @@ Feature: NextBase login steps
     Given User is on the nextBase login page
 
 
-  Scenario Outline: User use credentials and login
+  Scenario Outline: Users use credentials and login
     When user enter "<Username>" and "<password>"
     And user clicks to login button
     Then User should see dashboard
