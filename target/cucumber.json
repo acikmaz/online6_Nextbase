@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-23T23:22:32.167Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextBase.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "As a user, I should be able to use \"Filter",
+        "description": "  and search\" functionality on Active Stream.",
+        "id": "filter-and-search;as-a-user--i-should-be-able-to-use-\"filter",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nextBase.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3767000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User is on the Bitrix landing page",
+            "match": {
+              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_is_on_the_bitrix_landing_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User clicks on Filter module and enters hr35@cybertekschool.com",
+            "match": {
+              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_clicks_on_filter_module_and_enters_hr35_cybertekschool_com()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User enters Search",
+            "match": {
+              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_enters_search()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User should see all posts by hr35@cybertekschool.com on the Activity Stream",
+            "match": {
+              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_should_see_all_posts_by_hr35_cybertekschool_com_on_the_activity_stream()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.nextBase.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      }
+    ],
+    "name": "Filter and Search",
+    "description": "",
+    "id": "filter-and-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Filter.feature",
+    "tags": [
+      {
+        "name": "@filter",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
