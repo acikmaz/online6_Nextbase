@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 11,
     "elements": [
       {
-        "start_timestamp": "2020-07-23T23:22:32.167Z",
+        "start_timestamp": "2020-07-25T05:50:39.533Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "As a user, I should be able to use \"Filter",
-        "description": "  and search\" functionality on Active Stream.",
-        "id": "filter-and-search;as-a-user--i-should-be-able-to-use-\"filter",
+        "line": 16,
+        "name": "user should able to click on upload files icon",
+        "description": "",
+        "id": "sending-message;user-should-able-to-click-on-upload-files-icon",
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3767000000,
+              "duration": 12691000000,
               "status": "passed"
             },
             "before": [
@@ -49,14 +49,15 @@
                 }
               }
             ],
-            "line": 8,
-            "name": "User is on the Bitrix landing page",
+            "line": 17,
+            "name": "User login and  go to message page",
             "match": {
-              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_is_on_the_bitrix_landing_page()"
+              "location": "com.nextBase.step_definitions.haci.user_login_and_go_to_message_page()"
             },
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -68,13 +69,12 @@
           },
           {
             "result": {
-              "duration": 195000000,
+              "duration": 246000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -82,14 +82,15 @@
                 }
               }
             ],
-            "line": 9,
-            "name": "User clicks on Filter module and enters hr35@cybertekschool.com",
+            "line": 18,
+            "name": "User clicks on message text",
             "match": {
-              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_clicks_on_filter_module_and_enters_hr35_cybertekschool_com()"
+              "location": "com.nextBase.step_definitions.haci.user_clicks_on_message_text()"
             },
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -101,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 1292000000,
               "status": "passed"
             },
             "before": [
@@ -115,14 +116,15 @@
                 }
               }
             ],
-            "line": 10,
-            "name": "User enters Search",
+            "line": 19,
+            "name": "User clicks on upload files icon",
             "match": {
-              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_enters_search()"
+              "location": "com.nextBase.step_definitions.haci.user_clicks_on_upload_files_icon()"
             },
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -134,13 +136,12 @@
           },
           {
             "result": {
-              "duration": 47000000,
+              "duration": 3064000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -148,14 +149,15 @@
                 }
               }
             ],
-            "line": 11,
-            "name": "User should see all posts by hr35@cybertekschool.com on the Activity Stream",
+            "line": 20,
+            "name": "User should see select document from Bitrix",
             "match": {
-              "location": "com.nextBase.step_definitions.FilterStepDefinitions.user_should_see_all_posts_by_hr35_cybertekschool_com_on_the_activity_stream()"
+              "location": "com.nextBase.step_definitions.haci.user_should_see_select_document_from_bitrix()"
             },
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -168,23 +170,34 @@
         ],
         "tags": [
           {
-            "name": "@filter"
+            "name": "@sending_message"
+          },
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Filter and Search",
+    "name": "Sending message",
     "description": "",
-    "id": "filter-and-search",
+    "id": "sending-message",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Filter.feature",
+    "uri": "file:src/test/resources/features/sending_message.feature",
     "tags": [
       {
-        "name": "@filter",
+        "name": "@sending_message",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 10,
           "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 10,
+          "column": 18
         }
       }
     ]

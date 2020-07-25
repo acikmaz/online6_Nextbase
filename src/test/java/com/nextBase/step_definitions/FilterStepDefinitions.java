@@ -25,7 +25,7 @@ public class FilterStepDefinitions {
     public void user_is_on_the_bitrix_landing_page() {
 
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-        loginPage.username.sendKeys(ConfigurationReader.getProperty("username"));
+        loginPage.usernameBox.sendKeys(ConfigurationReader.getProperty("username"));
         loginPage.password.sendKeys(ConfigurationReader.getProperty("password"));
         loginPage.loginButton.click();
     }
