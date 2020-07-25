@@ -14,6 +14,5 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags = "@filter"
 )
-
-public class CukesRunner {git
+public class CukesRunner {
 }
