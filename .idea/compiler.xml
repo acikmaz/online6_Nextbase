@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="online6_Nextbase" />
         <module name="nextBase" />
+        <module name="online6_Nextbase" />
+        <module name="online6_Nextbase_update" />
       </profile>
     </annotationProcessing>
   </component>
