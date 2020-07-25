@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nextBase" />
         <module name="online6_Nextbase" />
+        <module name="Next_Base" />
         <module name="online6_Nextbase2" />
       </profile>
     </annotationProcessing>
