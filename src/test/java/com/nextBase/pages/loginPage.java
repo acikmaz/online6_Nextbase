@@ -13,13 +13,15 @@ public class loginPage {
     }
 
     @FindBy(name = "USER_LOGIN")
-    public WebElement usernameBox;
+    public WebElement username;
 
     @FindBy(name = "USER_PASSWORD")
     public WebElement password;
 
     @FindBy(xpath = "//input[@class = 'login-btn']")
     public WebElement loginButton;
+
+
 
 
 
