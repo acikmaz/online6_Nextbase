@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/nextBase/step_definitions",
         dryRun = false,
-        tags = "@filter"
+        tags = "@addEmailToMessage"
 )
 public class CukesRunner {
 }

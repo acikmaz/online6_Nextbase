@@ -12,5 +12,6 @@
         <module name="online6_Nextbase2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
