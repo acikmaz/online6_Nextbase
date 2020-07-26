@@ -1,9 +1,8 @@
-com\nextBase\pages\landingPage.class
 com\nextBase\utilities\ConfigurationReader.class
 com\nextBase\pages\loginPage.class
 com\nextBase\runners\CukesRunner.class
-com\nextBase\step_definitions\FilterStepDefinitions.class
 com\nextBase\step_definitions\Hooks.class
 com\nextBase\step_definitions\loginStepDefinitions.class
 com\nextBase\runners\FailedTestRunner.class
+com\nextBase\pages\AddUserToMessage.class
 com\nextBase\utilities\Driver.class
