@@ -1,6 +1,7 @@
 package com.nextBase.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,11 +14,15 @@ public class Driver {
     }
 
     private static WebDriver driver;
+    private static final Logger logger = Logger.getLogger(Driver.class);
+
 
     public static WebDriver getDriver(){
 
         if (driver == null){
             String browser = ConfigurationReader.getProperty("browser");
+            logger.info("Browser :: " + browser);
+
 
             switch (browser){
                 case "chrome":

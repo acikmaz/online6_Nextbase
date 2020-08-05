@@ -11,4 +11,3 @@ Feature: Filter and Search
     And User enters Search
     Then User should see all posts by hr35@cybertekschool.com on the Activity Stream
 
-    given gkdfkdlfa
