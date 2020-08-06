@@ -1,0 +1,75 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be able on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-06T05:34:08.814Z",
+        "line": 7,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters valid \"helpdesk5@cybertekschool.com\" and valid \"UserUser\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should be able to see dashboard",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Bitrix:  User should be able to login with valid credentials",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

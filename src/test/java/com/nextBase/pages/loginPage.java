@@ -11,14 +11,23 @@ public class loginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(name = "USER_LOGIN")
-    public WebElement username;
-
+    @FindBy (name = "USER_LOGIN")
+    public WebElement userNameInput;
     @FindBy(name = "USER_PASSWORD")
-    public WebElement password;
+    public WebElement passwordInput;
+    @FindBy(id = "USER_REMEMBER")
+    public WebElement rememberMeChechButton;
+    @FindBy(linkText = "Forgot your password?")
+    public  WebElement forgotYourPasswordLink;
+    @FindBy(className = "login-btn")
+    public  WebElement logInButton;
 
-    @FindBy(xpath = "//input[@class = 'login-btn']")
-    public WebElement loginButton;
+    public void login(String username, String password) {
+        userNameInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+        logInButton.click();
+    }
+
 
 
 
